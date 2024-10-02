@@ -1,16 +1,54 @@
 ---
-
+import { Image } from "astro:assets";
+import ImagMackup from "/mackup_tramsp_soft.jpg";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body class="text-white">
+    <div
+      class="absolute inset-0 -z-10 h-screen w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"
+    >
+    </div>
+    <main class="container mx-auto">
+      <header class="md:px-8 md:py-6 flex justify-between items-center">
+        <h1 class="text-3xl">Intiscorp</h1>
+        <ul class="flex gap-5">
+          <li>Services</li>
+          <li>Products</li>
+        </ul>
+      </header>
+      <main class="flex items-center">
+        <img src="/mackup_transp_soft.png" alt="" />
+      </main>
+      <section>
+        <h3>Beneficies</h3>
+        <article>
+          <section>
+            <h5>Protected with Virus</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+              dolorum. Id nulla voluptates alias laboriosam cumque est fugiat
+              libero exercitationem ab ex ratione, quidem quia iure optio modi
+              aspernatur eum tempora accusamus tempore quis voluptatibus. Modi
+              corrupti exercitationem aut est odio sit debitis repellendus quia
+              aspernatur ipsa dolor totam asperiores vel voluptas dignissimos
+              veritatis suscipit vero reiciendis voluptatum, inventore
+              praesentium? Eos, architecto tempore. Animi quisquam aspernatur
+              incidunt iure vero illo accusamus ipsa porro ad dolore, quos,
+              earum aut et libero cupiditate recusandae optio repellendus cum
+              nesciunt facilis culpa magni neque distinctio. Quo necessitatibus
+              ipsa nisi consequatur! Nemo adipisci temporibus nesciunt!
+            </p>
+          </section>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
